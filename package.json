@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-theme-dfds",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "keywords": [
+    "gatsby"
+  ],
+  "dependencies": {
+    "gatsby": "^2.0.111",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-manifest": "^2.0.17",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-source-graphql": "^2.0.10",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0"
+  },
+  "scripts": {
+    "start": "cd example && yarn start",
+    "semantic-release": "semantic-release",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdichev/gatsby-dfds-theme.git"
+  }
+}
