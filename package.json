@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-dfds",
+  "name": "@dfds-frontend/gatsby-theme",
   "version": "0.0.0-development",
   "license": "MIT",
   "keywords": [
@@ -12,13 +12,18 @@
     "gatsby-plugin-offline": "^2.0.22",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-plugin-styled-components": "^3.0.5",
+    "gatsby-plugin-typography": "^2.2.7",
     "gatsby-source-filesystem": "^2.0.20",
     "gatsby-source-graphql": "^2.0.10",
     "gatsby-transformer-sharp": "^2.1.13",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.18",
+    "styled-components": "^4.1.3",
+    "typography": "^0.16.18"
   },
   "scripts": {
     "start": "cd example && yarn start",
