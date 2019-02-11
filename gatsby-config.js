@@ -9,6 +9,7 @@ module.exports = themeOptions => {
       author: `@gatsbyjs`,
     },
     plugins: [
+      'gatsby-plugin-eslint',
       `gatsby-plugin-react-helmet`,
       {
         resolve: `gatsby-source-filesystem`,
@@ -17,6 +18,8 @@ module.exports = themeOptions => {
           path: path.resolve(`${themeOptions.root}/src/images`),
         },
       },
+      `gatsby-transformer-sharp`,
+      `gatsby-plugin-sharp`,
       {
         resolve: `gatsby-plugin-manifest`,
         options: {
@@ -26,14 +29,9 @@ module.exports = themeOptions => {
           background_color: `#663399`,
           theme_color: `#663399`,
           display: `minimal-ui`,
-          icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+          icon: `src/images/dfds-icon.png`, // This path is relative to the root of the site.
         },
       },
-      'gatsby-plugin-offline',
-      ...themeOptions.apis.map(api => ({
-        resolve: 'gatsby-source-graphql',
-        options: api,
-      })),
     ],
   }
 }
