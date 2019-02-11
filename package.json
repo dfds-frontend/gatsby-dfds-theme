@@ -35,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kdichev/gatsby-dfds-theme.git"
+    "url": "https://github.com/dfds-frontend/gatsby-dfds-theme"
   }
 }
