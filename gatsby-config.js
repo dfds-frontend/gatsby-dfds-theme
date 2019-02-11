@@ -32,6 +32,13 @@ module.exports = themeOptions => {
           icon: `src/images/dfds-icon.png`, // This path is relative to the root of the site.
         },
       },
+      {
+        resolve: `gatsby-plugin-typography`,
+        options: {
+          pathToConfigModule: path.resolve(`${__dirname}/src/utils/typography`),
+        },
+      },
+      `gatsby-plugin-styled-components`,
     ],
   }
 }
