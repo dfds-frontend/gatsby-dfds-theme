@@ -1,0 +1,53 @@
+{
+  "name": "gatsby-dfds-starter",
+  "description": "A simple starter to get up and developing quickly with Gatsby at DFDS A/S",
+  "version": "0.1.0",
+  "author": "Konstantin Dichev <kodic@dfds.com>",
+  "license": "MIT",
+  "keywords": [
+    "gatsby"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfds-frontend/gatsby-dfds-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/dfds-frontend/gatsby-dfds-starter/issues"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "test": "jest",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "gatsby": "2.0.118",
+    "apollo-boost": "0.1.27",
+    "gatsby-image": "2.0.29",
+    "gatsby-plugin-manifest": "2.0.17",
+    "gatsby-plugin-offline": "2.0.23",
+    "gatsby-plugin-react-helmet": "3.0.6",
+    "gatsby-plugin-sharp": "2.0.20",
+    "gatsby-source-filesystem": "2.0.20",
+    "gatsby-transformer-sharp": "2.1.13",
+    "isomorphic-fetch": "2.2.1",
+    "prop-types": "15.7.0",
+    "react-apollo": "2.4.1",
+    "react-content-loader": "^4.0.1",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "react-helmet": "5.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "24.1.0",
+    "babel-preset-gatsby": "0.1.7",
+    "eslint": "5.13.0",
+    "eslint-config-gatsby-standard": "2.1.1",
+    "eslint-plugin-react-hooks": "1.0.1",
+    "gatsby-plugin-eslint": "2.0.4",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "24.1.0",
+    "react-test-renderer": "16.8.1"
+  }
+}
