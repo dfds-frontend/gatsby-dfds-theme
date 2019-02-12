@@ -1,4 +1,3 @@
-import React from 'react'
 import { wrapRootElementWithTheme } from './src/components/wrapRootElementWithTheme'
 
 /**
@@ -6,7 +5,5 @@ import { wrapRootElementWithTheme } from './src/components/wrapRootElementWithTh
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
-
-// You can delete this file if you're not using it
 
 export const wrapRootElement = wrapRootElementWithTheme
