@@ -10,4 +10,16 @@
 
 ## 🚀 Quick start
 
-TBA
+1.  **Create a DFDS Gatsby site.**
+
+    Use the Gatsby CLI to create a new site, specifying the default starter.
+
+    ```sh
+    # create a new Gatsby site using the default starter
+    yarn global add gatsby-cli
+
+    gatsby new my-project-name https://github.com/dfds-frontend/gatsby-dfds-starter
+    ```
+
+2.  **Add DFDS theme**
+    TBA
