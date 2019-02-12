@@ -1,5 +1,5 @@
 import React from 'react'
-import { Theme } from './src/components/GlobalStyle'
+import { wrapRootElementWithTheme } from './src/components/wrapRootElementWithTheme'
 
 /**
  * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
@@ -9,6 +9,4 @@ import { Theme } from './src/components/GlobalStyle'
 
 // You can delete this file if you're not using it
 
-export const wrapRootElement = ({ element }) => {
-  return <Theme>{element}</Theme>
-}
+export const wrapRootElement = wrapRootElementWithTheme

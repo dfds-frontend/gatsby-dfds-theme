@@ -3,7 +3,3 @@
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
-
-import { wrapRootElementWithApollo } from './src/components/wrapRootElement'
-
-export const wrapRootElement = wrapRootElementWithApollo
